@@ -1,4 +1,4 @@
-function [PSNR,MSE] = psnr(im1,im2)
+function [PSNR,MSE] = PSNR(im1,im2)
 
 %------------------------计算峰值信噪比程序———————————————
 % im1 : the original image matrix
