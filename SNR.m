@@ -27,5 +27,3 @@ if  matrix_sum == 0
 else
     SNR = 10*log10( (255^2) / MSE ); % calculate the psnr                                                    
 end
-
-function snr=SNR_singlech(I,In)
