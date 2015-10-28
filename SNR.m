@@ -12,18 +12,8 @@ if (size(im1))~=(size(im2))
 end
 
     u1 = double(im1); % convert im1 to double type
-    u2 = double(im2); % convert im2 to double type    
-
-snr=0;
-Ps=sum(sum((I-mean(mean(I))).^2));%signal power
-Pn=sum(sum((I-In).^2));           %noise power
-snr=10*log10(Ps/Pn);
-    
-    
-
-if  matrix_sum == 0
-    error('两幅图像完全一样');
-    SNR = 200;
-else
-    SNR = 10*log10( (255^2) / MSE ); % calculate the psnr                                                    
-end
+    u2 = double(im2); % convert im2 to double type      
+    snr=0;
+    Ps=sum(sum((u1-mean(mean(u1))).^2));%signal power
+    Pn=sum(sum((u1-u2).^2));           %noise power
+    snr=10*log10(Ps/Pn);  
