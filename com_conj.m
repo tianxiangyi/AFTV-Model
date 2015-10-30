@@ -14,4 +14,4 @@ function y = com_conj(x)
 %        doc conj
 
 % x = double(x);
-y = real(x) - i*imag(x)
+y = real(x) - i*imag(x);
