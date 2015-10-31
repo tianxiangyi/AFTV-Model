@@ -1,4 +1,4 @@
-function nabla = nabla(u,alpha,coefficient)
+﻿function nabla = nabla(u,alpha,coefficient)
 
 %% ---------calculate the nabla alpha for matrix u-------
 %-------------------计算矩阵u的梯度算子程序------------------------
@@ -54,4 +54,7 @@ end
 
 %% 输出计算得到的nabla算子
 nabla = double(nabla);
+
+
+abc
 
