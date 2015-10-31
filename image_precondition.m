@@ -20,5 +20,4 @@ figure;imshow(Ig);
 
 
 %% 求取峰值信噪比
-%[ PSNR,MSE ] = psnr(image_gray,image_noise);
-
+%[ PSNR,MSE ] = psnr(image_gray,image_noise)
