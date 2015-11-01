@@ -16,4 +16,4 @@ end
     snr=0;
     Ps=sum(sum((u1-mean(mean(u1))).^2));%signal power
     Pn=sum(sum((u1-u2).^2));           %noise power
-    snr=10*log10(Ps/Pn);
+    snr=10*log10(Ps/Pn)
