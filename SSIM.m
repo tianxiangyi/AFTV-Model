@@ -20,4 +20,4 @@ l=(2*ux*uy+c1)/(ux*ux+uy*uy+c1);
 c=(2*sqrt(sigma2x)*sqrt(sigma2y)+c2)/(sigma2x+sigma2y+c2);
 s=(sigmaxy+c3)/(sqrt(sigma2x)*sqrt(sigma2y)+c3);
 
-re=l*c*s
+re=l*c*s;
