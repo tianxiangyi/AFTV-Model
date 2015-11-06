@@ -18,4 +18,4 @@ if  matrix_sum == 0
     PSNR = 200;
 else
     PSNR = 10*log10( (255^2) / MSE ); % calculate the psnr                                                    
-end;
+end
