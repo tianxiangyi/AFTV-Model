@@ -53,4 +53,4 @@ if coefficient == 1
 end
 
 %% 输出计算得到的nabla算子
-nabla = double(nabla);
+nabla = double(nabla)
